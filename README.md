@@ -132,7 +132,7 @@ README
     def determine_gpa(self, average):
         return average
 
-if __name__ == "__main__":
-    root = tk.Tk()
-    app = GradeTrackerApp(root)
-    root.mainloop()
+    if __name__ == "__main__":
+       root = tk.Tk()
+       app = GradeTrackerApp(root)
+       root.mainloop()
